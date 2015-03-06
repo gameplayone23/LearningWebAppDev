@@ -1,0 +1,25 @@
+main {
+	width: 500px;
+	margin: auto;
+	background: gray;
+	overflow: auto;
+}
+
+nav{
+	width: 100px;
+	float: right;
+}
+
+nav p {
+	/* uncomment the next line to get a border around the nav */
+	/* border: 3px solid black; */
+	margin: 0;
+	padding: 0;
+}
+
+p.content {
+	width: 380px; /* 400 - 2*10 = 380 */
+	margin: 0; /* zero out the default margin */
+	padding: 10px;
+	float: left;
+}

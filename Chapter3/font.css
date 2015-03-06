@@ -1,0 +1,16 @@
+body{
+	font-size: 100%;
+	font-family: 'Denk One', sans-serif;
+}
+h1{
+	font-size: xx-large;
+}
+h2 {
+	font-size: x-large;
+}
+.important {
+	font-size: larger; /* makes it a little larger than the parent */
+}
+.onePointTow{
+	font-size: 1.2em;
+}
