@@ -1,96 +1,44 @@
-*{
-	margin: 0;
-	padding: 0;
-}
-
 body{
 	background: #f9e933;
-	/* font-family: 'Denk One', sans-serif; */
-	font-size: 100%;
-}
-
-h1, h2, h3, h4{
-	font-family: 'Ubuntu', sans-serif;
-}
-
-h1{
-	font-size: xx-large;
-	font-style: italic;
-	color: #ba0000;
-}
-
-h2{
-	font-size: x-large;
-	color: black;
-	margin-bottom: 10px;
-}
-
-h3{
-	font-size: 1.1em;
-	color: black;
-	margin-top: 20px;
-	margin-bottom: 10px;
-}
-
-h5{
-	font-size: 1.1em;
-	margin-bottom: 10px;
-}
-
-a{
-	text-decoration: none;
-}
-
-a, .amaze{
-	color: red;
-}
-
-a:hover{
-	text-decoration: underline;
 }
 
 header, main, footer{
 	min-width: 855px;
+
 }
 
 header .container, main .container, footer .container{
 	max-width: 855px;
 	margin: auto;
-<<<<<<< HEAD
-<<<<<<< HEAD
 	overflow: auto;
-	margin-top: 20px;
-	margin-bottom: 20px;
-=======
->>>>>>> parent of df475a8... Chapter 3 - Styling Amazeriffic - Alignement des blocs a gauche et a droite
-=======
->>>>>>> parent of df475a8... Chapter 3 - Styling Amazeriffic - Alignement des blocs a gauche et a droite
 }
 
 header{
 	background: white;
-<<<<<<< HEAD
-<<<<<<< HEAD
-	overflow: auto;
-=======
->>>>>>> parent of df475a8... Chapter 3 - Styling Amazeriffic - Alignement des blocs a gauche et a droite
-=======
->>>>>>> parent of df475a8... Chapter 3 - Styling Amazeriffic - Alignement des blocs a gauche et a droite
-}
-
-main{
-	background: white;
-<<<<<<< HEAD
-<<<<<<< HEAD
 	overflow: auto;
 }
 
-header .blocGauche, main .blocGauche{
+header h1{
 	float: left;
 	width: 570px;
 }
 
-header .blocDroit, main .blocDroit{
+header nav{
+	float: right;
+	width: 285px;
+}
+
+main{
+	background: white;
+	overflow: auto;
+}
+
+main .blocGauche{
+	float: left;
+	width: 570px;
+}
+
+main .blocDroit{
 	float: right;
 	width: 285px;
 }
@@ -113,8 +61,4 @@ footer .blocGauche{
 footer .blocDroit{
 	float: right;
 	width: 50%;
-=======
->>>>>>> parent of df475a8... Chapter 3 - Styling Amazeriffic - Alignement des blocs a gauche et a droite
-=======
->>>>>>> parent of df475a8... Chapter 3 - Styling Amazeriffic - Alignement des blocs a gauche et a droite
 }
