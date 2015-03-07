@@ -56,18 +56,25 @@ header, main, footer{
 header .container, main .container, footer .container{
 	max-width: 855px;
 	margin: auto;
+<<<<<<< HEAD
 	overflow: auto;
 	margin-top: 20px;
 	margin-bottom: 20px;
+=======
+>>>>>>> parent of df475a8... Chapter 3 - Styling Amazeriffic - Alignement des blocs a gauche et a droite
 }
 
 header{
 	background: white;
+<<<<<<< HEAD
 	overflow: auto;
+=======
+>>>>>>> parent of df475a8... Chapter 3 - Styling Amazeriffic - Alignement des blocs a gauche et a droite
 }
 
 main{
 	background: white;
+<<<<<<< HEAD
 	overflow: auto;
 }
 
@@ -99,4 +106,6 @@ footer .blocGauche{
 footer .blocDroit{
 	float: right;
 	width: 50%;
+=======
+>>>>>>> parent of df475a8... Chapter 3 - Styling Amazeriffic - Alignement des blocs a gauche et a droite
 }
