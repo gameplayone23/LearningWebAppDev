@@ -1,16 +1,64 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
 body{
 	background: #f9e933;
+	/* font-family: 'Denk One', sans-serif; */
+	font-size: 100%;
+}
+
+h1, h2, h3, h4{
+	font-family: 'Ubuntu', sans-serif;
+}
+
+h1{
+	font-size: xx-large;
+	font-style: italic;
+	color: #ba0000;
+}
+
+h2{
+	font-size: x-large;
+	color: black;
+	margin-bottom: 10px;
+}
+
+h3{
+	font-size: 1.1em;
+	color: black;
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+
+h5{
+	font-size: 1.1em;
+	margin-bottom: 10px;
+}
+
+a{
+	text-decoration: none;
+}
+
+a, .amaze{
+	color: red;
+}
+
+a:hover{
+	text-decoration: underline;
 }
 
 header, main, footer{
 	min-width: 855px;
-
 }
 
 header .container, main .container, footer .container{
 	max-width: 855px;
 	margin: auto;
 	overflow: auto;
+	margin-top: 20px;
+	margin-bottom: 20px;
 }
 
 header{
@@ -18,27 +66,17 @@ header{
 	overflow: auto;
 }
 
-header h1{
-	float: left;
-	width: 570px;
-}
-
-header nav{
-	float: right;
-	width: 285px;
-}
-
 main{
 	background: white;
 	overflow: auto;
 }
 
-main .blocGauche{
+header .blocGauche, main .blocGauche{
 	float: left;
 	width: 570px;
 }
 
-main .blocDroit{
+header .blocDroit, main .blocDroit{
 	float: right;
 	width: 285px;
 }
