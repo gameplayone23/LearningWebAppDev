@@ -10,12 +10,55 @@ header, main, footer{
 header .container, main .container, footer .container{
 	max-width: 855px;
 	margin: auto;
+	overflow: auto;
 }
 
 header{
 	background: white;
+	overflow: auto;
+}
+
+header h1{
+	float: left;
+	width: 570px;
+}
+
+header nav{
+	float: right;
+	width: 285px;
 }
 
 main{
 	background: white;
+	overflow: auto;
+}
+
+main .blocGauche{
+	float: left;
+	width: 570px;
+}
+
+main .blocDroit{
+	float: right;
+	width: 285px;
+}
+
+footer .contact{
+	float: left;
+	width: 570px;
+}
+
+footer .sitemap{
+	float: right;
+	width: 285px;
+}
+
+footer .blocGauche{
+	float: left;
+	width: 50%;
+}
+
+footer .blocDroit{
+	float: right;
+	width: 50%;
 }
