@@ -1,0 +1,84 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	width: 855px;
+	margin: auto;
+}
+
+header, main, footer{
+	overflow: auto;
+}
+
+header{
+	border-bottom: 1px solid;
+	margin-bottom: 25px;
+}
+
+header h1{
+	width: 285px;
+	float: left;
+	font-weight: bold;
+}
+
+header p{
+	width: 570px;
+	float: right;
+	font-size: 1.2em;
+	font-style: italic;
+	margin-top: 10px;
+}
+
+.comment-input{
+	width: 285px;
+	float: left;
+}
+
+.comment-input input{
+	margin-top: 10px;
+	width: 80%;
+	height: 30px;
+	font-weight: bold;
+	font-size: 1.2em;
+}
+
+.comment-input button {
+	font-weight: bold;
+	padding: 3px;
+	border-radius: 5px;
+	color: ivory;
+	background: olivedrab;
+	cursor: pointer;
+	font-size: 1.5em;
+	margin-left: 5px;
+}
+
+.comments{
+	width: 570px;
+	float: right;
+}
+
+.comments p{
+	border-radius: 3px;
+	margin-bottom: 10px;
+	padding: 3px;
+}
+
+.comments p:nth-child(even) {
+	background: lavender;
+}
+.comments p:nth-child(odd) {
+	background: gainsboro;
+}
+
+footer{
+	margin-top: 25px;
+	border-top: 1px solid;
+}
+
+footer p{
+	margin-top: 10px;
+	font-size: 0.8em;
+}
