@@ -11,6 +11,8 @@ var main = function (){
 		if ( $(".comment-input input").val() !== "" ) {
 			 $new_comment= $("<p>").text($(".comment-input input").val());
 			 $(".comments").append($new_comment);
+			 // Remise à zéro de l'input apres ajout
+			 $(".comment-input input").val("");
 		};
 	});
 };
