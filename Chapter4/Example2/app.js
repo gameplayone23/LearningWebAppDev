@@ -3,7 +3,11 @@ var main = function (){
 
 	// Execution d'une fonction lors du clic sur le bouton
 	$(".comment-input button").on("click", function(event){
-		$(".comments").append("<p>this is a new content</p>");
+		// Creation d'une nouvelle variable contenant la code html à ajouter
+		// $("<p>") permet de créer un objet de type paragraphe
+		// la fonction val permet d'obtenir le contenu d'un objet de type input box
+		var $new_comment = $("<p>").text($(".comment-input input").val());
+		$(".comments").append($new_comment);
 	});
 };
 
