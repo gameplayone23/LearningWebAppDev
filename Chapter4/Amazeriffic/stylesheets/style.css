@@ -96,6 +96,11 @@ main .right{
 	background: #eee;
 }
 
+.content{
+	background: #eee;
+	padding: 15px;
+}
+
 .content input{
 	margin-top: 10px;
 	width: 80%;
@@ -113,6 +118,19 @@ main .right{
 	cursor: pointer;
 	font-size: 1.5em;
 	margin-left: 5px;
+}
+
+.content li{
+	border-radius: 3px;
+	margin-bottom: 10px;
+	padding: 3px;
+}
+
+.content li:nth-child(even) {
+	background: lavender;
+}
+.content li:nth-child(odd) {
+	background: gainsboro;
 }
 
 footer{
