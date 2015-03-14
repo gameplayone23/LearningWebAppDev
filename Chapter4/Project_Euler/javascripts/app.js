@@ -67,7 +67,54 @@ var main = function(){
 		$("main .container").append($para);
 	}
 
-	problem2();
+	/*
+	Largest prime factor
+
+	Problem 3
+
+	The prime factors of 13195 are 5, 7, 13 and 29.
+	What is the largest prime factor of the number 600851475143 ?
+	*/
+
+	// Fonction permettant d'identifier un nombre premier
+	var checkPremier = function(nombre){
+		// On boucle de 2 jusqu'à la moitié du nombre testé
+		// On ne test pas 1 car tous les nombres premiers sont divisibles par 1
+		// On ne dépasse pas la moitié car le plus petit nombre premier est 2
+		for (var i = 2; i < nombre/2; i++) {
+			// S'il est divisible par un autre nombre il n'est pas un nombre premier
+			if(nombre%i===0){
+				return false;
+			}
+		};
+		// S'il n'est divisible que par lui même et 1, c'est un nombre premier
+		return true;
+	};
+
+	var problem3 = function(){
+		var $para,
+			monReste = 600851475143,
+			i = 2,
+
+		$para = $('<p>').text("Probleme 3 - Largest prime factor ");
+		$("main .container").append($para);
+
+		// Boucle dans que le reste supérieur 1
+		while(monReste > 1){
+			// Si le reste de la division par un nombre premier est 0 alors c'est un prime factor
+			if(monReste % i === 0 && checkPremier(i)){
+				monReste = monReste / i;
+				console.log("-> Prime factor : " + i);
+			// Si le reste est supérieur à 0 on continue
+			}else{
+				i++;
+			}
+		}
+		// Affichage du plus grand prime factor
+		$para = $('<p>').text("Result : " + i);
+		$("main .container").append($para);
+	}
+	problem3();
 };
 
 $(document).ready(main);
